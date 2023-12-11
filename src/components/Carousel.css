@@ -1,1 +1,50 @@
 /* write down the css for Carousel in this file */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#carousel {
+    width: 550px;
+    height: 670px;
+}
+
+#carousel > div {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(48, 48, 48, 0.437);
+    height: 100%;
+    cursor: pointer;
+}
+
+#details {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+#details > * {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.icon {
+    color: white;
+}
